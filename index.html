@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sparta Bootstrap Lab</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css\bootstrap-4.2.1-dist\css\bootstrap.min.css">
+    <script src="css\bootstrap-4.2.1-dist\js\bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <style>
+        /*.car-img{
+            height:500px;
+            width:100%;*/
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-secondary">
+        <a class="navbar-brand" href="#"><i class="fas fa-jedi fa-3x"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+                </li>
+                <li class="nav-item">
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="container">
+            <h2 class="text-center">Lorem Ipsum</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur pariatur dolore labore enim minus distinctio delectus voluptas, nihil officiis accusantium in unde exercitationem esse, voluptatibus quidem fugiat impedit molestias iste.</p>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-10 offset-2">
+                    <h1>Main Article</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8">
+                    <div class="jumbotron">
+                        <img src="./images/lotuslogo.png" alt="Lotus" class="img-thumbnail rounded float-left" style="width:40%; height:40%;">
+                        <h2 class="display-4">Sub Heading</h2>
+                        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                        <hr class="my-4">
+                        <p>-Article by Tyrone, 09/01/2019</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                        <div class="card">
+                            <div class="card-header">Recent</div>
+                            
+                            <div class="container-fluid card-body">
+
+                            </div>
+                            <img src="./images/lotuslogo.png" class="card-img-top" alt="Lotus Image" style="width:5em; height:5em;">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="media">
+                <img src="./images/lotuslogo.png" class="mr-3" style="height:10rem; width: 10rem;"alt="...">
+                <div class="media-body">
+                    <h5 class="mt-0 bg-secondary text-light text-center">Main Article</h5>
+                    Finally got something that looks kinds like an article. Not satisfied but it will do.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa iste libero impedit aut quia omnis, blanditiis recusandae? Delectus sapiente eligendi maiores qui, animi repudiandae quisquam omnis molestiae nihil exercitationem recusandae.
+                    - Tyrone, 09/01/2019
+                </div>
+            </div>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/hugues-de-buyer-mimeure-313867-unsplash.jpg" class="d-block w-100 img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/kien-do-6719-unsplash.jpg" class="d-block w-100 img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/hans-eiskonen-18944-unsplash.jpg" class="d-block w-100 img-fluid .height: auto;" alt="...">
+                </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+                </a>
+        </div>
+        <div class="container text-center">
+            <i class="fab fa-twitter-square fa-3x"></i>
+            <i class="fab fa-google-plus-square fa-3x"></i>
+            <i class="fab fa-facebook-square fa-3x"></i>
+            <i class="fas fa-share-square fa-3x"></i>               
+        </div>
+    </div>
+</body>
+</html>
