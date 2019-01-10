@@ -11,14 +11,9 @@
     <link rel="stylesheet" href="css\bootstrap-4.2.1-dist\css\bootstrap.min.css">
     <script src="css\bootstrap-4.2.1-dist\js\bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <style>
-        /*.car-img{
-            height:500px;
-            width:100%;*/
-        }
-    </style>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
-<body>
+<body class="body-con">
     <nav class="navbar navbar-expand-sm navbar-dark bg-secondary">
         <a class="navbar-brand" href="#"><i class="fas fa-jedi fa-3x"></i></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,15 +51,15 @@
             <h2 class="text-center">Lorem Ipsum</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur pariatur dolore labore enim minus distinctio delectus voluptas, nihil officiis accusantium in unde exercitationem esse, voluptatibus quidem fugiat impedit molestias iste.</p>
         </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-10 offset-2">
+        <div class="art-con" class="container-fluid">
+            <div class="row text-light">
+                <div class="text-light col-10 offset-2">
                     <h1>Main Article</h1>
                 </div>
             </div>
             <div class="row">
                 <div class="col-8">
-                    <div class="jumbotron">
+                    <div class="jumbotron jumbotron-fluid">
                         <img src="./images/lotuslogo.png" alt="Lotus" class="img-thumbnail rounded float-left" style="width:40%; height:40%;">
                         <h2 class="display-4">Sub Heading</h2>
                         <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
@@ -74,16 +69,39 @@
                 </div>
                 <div class="col-4">
                         <div class="card">
-                            <div class="card-header">Recent</div>
-                            
-                            <div class="container-fluid card-body">
-
-                            </div>
-                            <img src="./images/lotuslogo.png" class="card-img-top" alt="Lotus Image" style="width:5em; height:5em;">
-                            <div class="card-body">
-                                <h5 class="card-title"></h5>
-                                <p class="card-text"></p>
-                            </div>
+                            <div class="card-header text-center"><h4>Recent</h4></div>
+                            <div class="container-fluid card-body"></div>
+                                <div class="row">
+                                    <div class="col-3">
+                                        <img src="./images/lotuslogo.png" class="card-img-top" alt="Lotus Image" style="width:5em; height:5em;">
+                                    </div>
+                                    <div class="col-9">
+                                        <div class="card-body"> 
+                                            <p class="card-text">Test text</p>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="row">
+                                    <div class="col-3">
+                                        <img src="./images/lotuslogo.png" class="card-img-top" alt="Lotus Image" style="width:5em; height:5em;">
+                                    </div>
+                                    <div class="col-9">
+                                        <div class="card-body"> 
+                                            <p class="card-text">Test text</p>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="row">
+                                    <div class="col-3">
+                                        <img src="./images/lotuslogo.png" class="card-img-top" alt="Lotus Image" style="width:5em; height:5em;">
+                                    </div>
+                                    <div class="col-9">
+                                        <div class="card-body"> 
+                                            <p class="card-text">Test text</p>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>                          
                         </div>
                     </div>
             </div>
@@ -123,6 +141,14 @@
             <i class="fab fa-google-plus-square fa-3x"></i>
             <i class="fab fa-facebook-square fa-3x"></i>
             <i class="fas fa-share-square fa-3x"></i>               
+        </div>
+        <div class="col-md-4">
+            <ul class="list-group">
+                <li class="list-group-item">List1</li>
+                <li class="list-group-item">List2</li>
+                <li class="list-group-item">List3</li>
+                <li class="list-group-item">List4</li>
+            </ul>
         </div>
     </div>
 </body>
